@@ -43,7 +43,7 @@
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": [
-      "off",
+      1,
       {
         "allowExpressions": true,
         "allowTypedFunctionExpressions": true,

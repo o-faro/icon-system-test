@@ -10,6 +10,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -19,11 +20,12 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "react-bem-helper": "^1.4.1",
     "react-icon-system": "^1.2.1"
   },
   "scripts": {
-    "svgOptimize": "svgo -f  ./assets/icon-font/svg-sprite-resource --config=./src/assets/icon-font/svgo-config.json",
-    "start": "SET \"REACT_APP_ICON_PATH=assets/svg-sprite-resource/\" && react-scripts start",
+    "svgOptimize": "svgo -f  ./src/assets/icon-font/svg-sprite-resource --config=./src/assets/icon-font/svgo-config.json",
+    "start": "SET \"REACT_APP_ICON_PATH=src/assets/svg-sprite-resource/\" && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
